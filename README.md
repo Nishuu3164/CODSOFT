@@ -24,8 +24,8 @@ This repository includes three primary tasks:
 ## Demo Links
 
 - [Landing Page Demo](https://nishuu3164.github.io/CODSOFT/level1_Task1/one.html)
-- [Portfolio Demo](https://nishuu3164.github.io/CODSOFT/portfolio/two.html)
-- [Calculator Demo](https://nishuu3164.github.io/CODSOFT/calculator/three.html)
+- [Portfolio Demo](https://nishuu3164.github.io/CODSOFT/level1_task2/two.html)
+- [Calculator Demo](https://nishuu3164.github.io/CODSOFT/level1_task3/three.html)
 
 ## Installation and Usage
 
