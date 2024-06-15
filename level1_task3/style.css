@@ -1,0 +1,74 @@
+body{
+    background-color: #8ba7c0;
+}
+
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    border: 1px solid #104458;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: .8rem .8rem .2rem #032755;
+    background-color: #3e8fb4;
+  }
+  
+  #display {
+    width: 92%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ddd;
+    border: 1px solid #104458;
+    box-shadow: -.2rem .2rem .2rem #143783;
+    border-radius: 5px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    border: 1px solid #104458;
+    box-shadow: -.2rem .2rem .2rem #143783;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+  }
+
+
+  .animated-text {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Cpmfortaa', cursive;
+    text-transform: uppercase;
+    text-shadow: .5rem .5rem .5rem #000;
+    font-weight: bold;
+    color: #ddd;
+    animation: swap 8s infinite;
+  }
+  
+  @keyframes swap {
+    0%, 25% {
+      content: "add?";
+    }
+    25%, 50% {
+      content: "subtract?";
+    }
+    50%, 75% {
+      content: "multiply?";
+    }
+    75%, 100% {
+      content: "divide?";
+    }
+  }
+  
